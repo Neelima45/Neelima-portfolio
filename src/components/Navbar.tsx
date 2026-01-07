@@ -38,16 +38,8 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
-          <a href="#" className="flex-shrink-0">
-            <motion.img
-              src="https://tapportfolio.lovable.app/assets/logo-CxDGoOCE.png"
-              alt="TAP Academy Logo"
-              className="h-10 md:h-12 w-auto"
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.2 }}
-            />
-          </a>
+          {/* Empty space for logo area */}
+          <div className="flex-shrink-0 w-10 md:w-12" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
